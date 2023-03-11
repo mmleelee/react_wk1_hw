@@ -1,0 +1,25 @@
+.image {
+    position: relative;
+    margin-top: 1.5rem;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .imageTitle {
+    color: white;
+    right: 2rem;
+    bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: absolute;
+  } 
+  
+  .imageLink {
+    display: block;
+  }
+  
+  .imageStyle {
+    width: 100%;
+    display: block;
+  }
