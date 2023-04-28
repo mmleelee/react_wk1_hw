@@ -1,24 +1,39 @@
-
 .descriptionTitle {
-    align-self: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+
+.descriptionLayout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00979c;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: white;
+  font-size: 1.25rem;
+}
+
+@media screen and (min-width: 768px) {
   .descriptionLayout {
-    background-color: #00979c;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
-  
-  @media screen and (min-width: 768px) {
-     .descriptionLayout {
-      padding-top: 3rem;
-      padding-bottom: 3rem;
-    }
-  }
-  
-  .descriptionContent {
-    text-indent: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
+}
+
+.descriptionContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-indent: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

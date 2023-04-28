@@ -1,15 +1,17 @@
 .image {
+
     position: relative;
-    margin-top: 1.5rem;
-    padding-left: 12px;
-    padding-right: 12px;
+    margin-top: 2rem;
+    margin-left: 4%;
+    margin-right: 4%; 
   }
 
   .imageTitle {
     color: white;
     right: 2rem;
+    margin-bottom: 1rem;
     bottom: 0;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
     position: absolute;

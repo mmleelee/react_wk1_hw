@@ -2,12 +2,12 @@ import styles from './description.module.css'
 
 export default function Description() {
     return (
-
         <article className={styles.descriptionLayout}>
             <div className="container">
                 <h1 className={styles.descriptionTitle}>DESCRIPTIONS</h1>
                 <hr className="divider--light" />
-                <p className={styles.descriptionContent}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
+                <p className={styles.descriptionContent}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium laborum
                     corrupti ut iure aliquam. Quod, perferendis. Libero tempore iste, animi sint numquam illum quasi laboriosam
                     unde pariatur quidem! Suscipit consequatur nihil dolor impedit temporibus ad cum, voluptatum odit ratione
                     ullam

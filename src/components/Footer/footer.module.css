@@ -8,15 +8,14 @@
   .footerContent{
     display: flex;
     flex-direction: row;
+    margin-left: 7rem;
+    margin-right:7rem;
     justify-content: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
   .footerDescription {
-    margin: 0;
-    padding: 0 30px;
     text-align: center;
-    padding-bottom: 30px;
     align-self: center;
     font-size: 1.2rem;
   }
@@ -69,5 +68,6 @@
     color: white;
     padding: 25px 0;
     text-align: center;
+    font-size: 1.5rem;
   }
   
